@@ -37,7 +37,7 @@ We begin by placing one router, five Layer 3 switches, and six servers onto the 
 <br />
 <br />
 Each server will connect to ports F0/20 and F0/21 on the respective leaf switches. The spine-leaf network will be wired as follows:  <br/>
-<img src="https://github.com/jessies98/Networking1.2/blob/main/images/Picture4.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/jessies98/Networking1.2/blob/main/images/Picture4.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Completed wired setup for the network  <br/>
