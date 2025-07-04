@@ -26,7 +26,7 @@ End Devices:
 - The design ensures that all servers can communicate through the spines via dynamic routing and port aggregation.
 
 Enter the number of passes: <br/>
-<img src="https://github.com/jessies98/images1/blob/main/Picture1.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/jessies98/Networking/blob/main/Picture1.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Confirm your selection:  <br/>
