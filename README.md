@@ -58,15 +58,23 @@ Next, we will configure Spine 1 and Spine 2 by enabling routing on interface G1/
 <br />
 <br />
 Next, we will configure VLAN 1 on all leaf switches, assign IP addresses to their VLAN interfaces, and enable the OSPF routing protocol for dynamic route exchange with the spine switches.  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/jessies98/Networking1.2/blob/main/images/Picture10.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/jessies98/Networking1.2/blob/main/images/Picture11.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/jessies98/Networking1.2/blob/main/images/Picture12.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Next, we will configure EtherChannels across the network to aggregate links and improve redundancy and bandwidth. Below is the EtherChannel summary for the configured interfaces  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/jessies98/Networking1.2/blob/main/images/Picture13.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/jessies98/Networking1.2/blob/main/images/Picture14.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/jessies98/Networking1.2/blob/main/images/Picture15.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/jessies98/Networking1.2/blob/main/images/Picture16.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/jessies98/Networking1.2/blob/main/images/Picture17.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/jessies98/Networking1.2/blob/main/images/Picture18.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
  <br />
 <br />
 After assigning static IP addresses to all servers, we will perform a final connectivity test to verify end-to-end communication across the network. <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/jessies98/Networking1.2/blob/main/images/Picture19.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/jessies98/Networking1.2/blob/main/images/Picture20.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 
