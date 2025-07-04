@@ -29,7 +29,7 @@ End Devices:
 <br />
 <br />
 Starting off the project, we are provided an internet connection that simulates an ISP. 
-<img src="https://github.com/jessies98/Networking1.2/blob/main/images/Picture2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/jessies98/Networking1.2/blob/main/images/Picture2.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 We begin by placing one router, five Layer 3 switches, and six servers onto the rack to form the core of our data center topology.  <br/>
