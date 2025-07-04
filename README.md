@@ -25,61 +25,48 @@ End Devices:
 - Multiple servers are connected to the leaf switches to simulate real-world enterprise services.
 - The design ensures that all servers can communicate through the spines via dynamic routing and port aggregation.
 
-Enter the number of passes: <br/>
 <img src="https://github.com/jessies98/Networking1.2/blob/main/images/Picture1.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Starting off the project, we are provided an internet connection that simulates an ISP. 
+<img src="https://github.com/jessies98/Networking1.2/blob/main/images/Picture2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+We begin by placing one router, five Layer 3 switches, and six servers onto the rack to form the core of our data center topology.  <br/>
+<img src="https://github.com/jessies98/Networking1.2/blob/main/images/Picture3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Sanitization complete:  <br/>
+Each server will connect to ports F0/20 and F0/21 on the respective leaf switches. The spine-leaf network will be wired as follows:  <br/>
+<img src="https://github.com/jessies98/Networking1.2/blob/main/images/Picture4.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Completed wired setup for the network  <br/>
+<img src="https://github.com/jessies98/Networking1.2/blob/main/images/Picture5.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <br />
+<br />
+After activating the router interfaces, I assigned the appropriate IP addresses to enable network communication. <br/>
+<img src="https://github.com/jessies98/Networking1.2/blob/main/images/Picture6.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Next, OSPF was configured on the router to enable dynamic routing, followed by a connectivity test to verify communication with the ISP server (11.1.1.10)  <br/>
+<img src="https://github.com/jessies98/Networking1.2/blob/main/images/Picture7.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Next, we will configure Spine 1 and Spine 2 by enabling routing on interface G1/0/24 and setting up the OSPF protocol. A VLAN interface will also be configured on each spine to establish Layer 3 connectivity with the leaf switches  <br/>
+<img src="https://github.com/jessies98/Networking1.2/blob/main/images/Picture8.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/jessies98/Networking1.2/blob/main/images/Picture9.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Next, we will configure VLAN 1 on all leaf switches, assign IP addresses to their VLAN interfaces, and enable the OSPF routing protocol for dynamic route exchange with the spine switches.  <br/>
 <img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Observe the wiped disk:  <br/>
+Next, we will configure EtherChannels across the network to aggregate links and improve redundancy and bandwidth. Below is the EtherChannel summary for the configured interfaces  <br/>
 <img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
  <br />
 <br />
-Enter the number of passes: <br/>
+After assigning static IP addresses to all servers, we will perform a final connectivity test to verify end-to-end communication across the network. <br/>
 <img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
- <br />
-<br />
-Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
